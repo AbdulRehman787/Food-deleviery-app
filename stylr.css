@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgb(138, 235, 138), lightblue);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+.container h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+}
+
+.register {
+    background-image: url("2.jpeg");
+    height: fit-content;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.9);
+    padding: 50px;
+}
+
+.group-log {
+    margin: 18px auto;
+    text-align: center;
+}
+
+.inp-txt {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0px;
+    padding: 7px;
+    box-shadow: 1px 1px 5px rgba(226, 14, 14, 0.898);
+}
+
+#btn {
+    width: 200px;
+    padding: 7px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 15px;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 5px rgba(221, 8, 8, 0.9);
+    align-items: center;
+    margin-left: 50px;
+}
+
+#btn:hover {
+    background-color: lightcoral;
+}
+
+#btn:active {
+    background-color: royalblue;
+}
